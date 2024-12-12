@@ -10,7 +10,6 @@ function App() {
 
   function displayUserData(e) {
     e.preventDefault();
-    // console.log(firstName.current.value);
     setUser({ firstName: firstName.current.value,
               lastName: lastName.current.value,
               email: email.current.value
